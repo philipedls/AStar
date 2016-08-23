@@ -5,8 +5,8 @@ public class AEstrela {
 	public static void main(String[] args) {
 
 		Vertice v1 = new Vertice("A", 10, 4);
-		Vertice v2 = new Vertice("B", 0, 14);
-		Vertice[] vertices = new Vertice[15];
+		Vertice v2 = new Vertice("B", 0, 15);
+		Vertice[] vertices = new Vertice[16];
 
 		vertices[4] = v1;
 		vertices[15] = v2;
@@ -50,7 +50,6 @@ public class AEstrela {
 		}
 		
 		exibirMatriz(vertices);
-		
 
 	}
 
